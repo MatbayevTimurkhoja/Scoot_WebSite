@@ -23,3 +23,43 @@ img{
   padding: 0 20px;
   max-width: 1440px;
 }
+
+/*=================== Site Button styles ===================*/
+
+.site__btn {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  background: #fcb72b;
+  border: 3px solid #fcb72b;
+  transition: 0.1s ease-in-out;
+}
+
+.site__btn:hover {
+  color: #fcb72b;
+  transition: 1s;
+  background-color: white;
+  border: 3px solid #fcb72b;
+}
+
+.site__btn:active {
+  border: 3px solid #fcb72b;
+}
+
+@media (max-width: 400px){ 
+  .site__btn{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    background: #fcb72b;
+    border: 1px solid #fcb72b;
+  }
+}
