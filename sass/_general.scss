@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 16px;
+}
+
+img{
+  display: inline-block;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
