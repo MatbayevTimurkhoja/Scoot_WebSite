@@ -1,0 +1,133 @@
+.rounds__container {
+  position: relative;
+  top: 400px;
+  width: 1440px;
+  height: 445px;
+}
+
+.rounds__el {
+  padding-top: 60px;
+  padding-left: 165px;
+}
+
+.rounds__items {
+  display: flex;
+  padding-bottom: 155px;
+  justify-content: space-between;
+}
+
+.rounds__items:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.circle-mob-img {
+  display: none;
+}
+
+.circle-mob-img2 {
+  display: none;
+}
+
+.circle-mob-img3 {
+  display: none;
+}
+
+.rounds__title {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.rounds__text {
+  width: 445px;
+  height: 160px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.rounds__btn {
+  padding: 14px 44.5px 14px 43.5px;
+}
+
+@media (max-width: 400px){  
+  .rounds__container{
+    position: relative;
+    top: 112px;
+    left: -168px;
+    width: 400px;
+    height: 2334px;
+  }
+  
+  .rounds__images{
+    display: none;
+  }
+  
+  .circle-mob-img{
+    margin-left: 35px;
+    display: block;
+  }
+  
+  .circle-mob-img2{
+    margin-left: -16px;
+    display: block;
+  }
+  
+  .circle-mob-img3{
+    display: block;
+    margin-left: 38px;
+  }
+  
+  .rounds__items:nth-child(2){
+    flex-direction: row;
+  }
+  
+  .rounds__title{
+    padding-top: 56px;
+    text-align: center;
+    width: 350px;
+    height: 64px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #495567;
+  }
+  
+  .rounds__text{
+    padding-top: 84px;
+    padding-left: 55px;
+    text-align: center;
+    width: 311px;
+    height: 150px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+  }
+  
+  .rounds__btn{
+    position: relative;
+    top: 140px;
+    left: 85px;
+    padding:  14px 44.5px 14px 43.5px;
+  }
+  
+}

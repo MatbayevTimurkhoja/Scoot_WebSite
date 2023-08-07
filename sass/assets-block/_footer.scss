@@ -1,0 +1,179 @@
+.sign-up__section {
+  position: relative;
+  top: 115rem;
+  width: 1440px;
+  height: 396px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-image: url(../img/footer-bg-img.png);
+  background-repeat: no-repeat;
+}
+
+.sign-up__container {
+  display: flex;
+  padding-top: 102px;
+  padding-left: 150px;
+}
+
+.sign-up__title {
+  width: 415px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+
+.sign-up__element {
+  padding-top: 20px;
+  padding-left: 312.5px;
+}
+
+.sign-up__img {
+  margin-left: 18px;
+}
+
+.sign-up-mob__img {
+  display: none;
+}
+
+.footer-menu__conatiner {
+  position: relative;
+  top: 1780px;
+  display: flex;
+  padding-left: 168.6px;
+}
+
+.footer__logo {
+  width: 107.82px;
+  height: 28.56px;
+}
+
+.footer__menu {
+  display: flex;
+  padding-left: 58.58px;
+}
+
+.footer-menu__item {
+  padding-top: 1px;
+  padding-left: 32px;
+}
+
+.footer-menu__link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.footer-menu__link:active {
+  color: var(--site-color);
+  transition: 0.1s;
+}
+
+.footer__lists {
+  display: flex;
+  padding-left: 522px;
+}
+
+.footer__item {
+  padding-left: 24px;
+}
+
+@media (max-width: 400px){  
+  
+  .sign-up__section{
+    position: relative;
+    top: 270px;
+    width: 375px;
+    height: 758px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(../../img/footer-mob-bg-img.png);
+    background-repeat: no-repeat;
+  }
+  
+  .sign-up__container{
+    display: block;
+  }
+  
+  .sign-up__title{
+    position: relative;
+    top: -17px;
+    left: -138px;
+    width:  311px;
+    height: 64px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    color: #FFFFFF;
+  }
+  
+  .sign-up__element{
+    position: relative;
+    left: -430px;
+    display: flex;
+  }
+  
+  .sign-up__img{
+    margin-left: 18px;
+  }
+  
+  .sign-up__img{
+    display: none;
+  }
+  
+  .sign-up-mob__img{
+    display: block;
+    margin-left: 12px;
+  }
+  
+  .footer-menu__conatiner{
+    position: relative;
+    top: -101px;
+    left: -31px;
+    display: block;
+  }
+  
+  .footer__logo{
+    width: 107.82px;
+    height: 28.56px;
+  }
+  
+  .footer__menu{
+    position: relative;
+    top: 31.44px;
+    left: -95px;
+    text-align: center;
+    display: block;
+  }
+  
+  .footer-menu__item{
+    padding-top: 16px;
+  }
+  
+  .footer-menu__link{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+  }
+  
+  .footer__lists{
+    position: relative;
+    top: 112.25px;
+    left: -550px;
+  }
+  
+}
